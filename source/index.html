@@ -8,47 +8,57 @@
 </head>
 <body>
   <header class="header">
-    <div class="logo header__logo">
-      <img src="img.logo.png" alt="Двери Гризли">
-    </div>
-    <nav class="nav nav--header header__nav">
-      <button class="burger nav__burger"><span class="visually-hidden">Открыть меню</span></button>
-      <ul class="nav__list">
-        <li class="nav__item">
-          <a class="nav__link" href="">Главная</a>
-        </li>
-        <li class="nav__item">
-          <a class="nav__link" href="catalog.html">Каталог</a>
-        </li>
-        <li class="nav__item">
-          <a class="nav__link" href="">Наши работы</a>
-        </li>
-        <li class="nav__item">
-          <a class="nav__link" href="contact.html">Контакты</a>
-        </li>
-      </ul>
-    </nav>
-    <section class="contact header__contact">
-      <h2 class="visually-hidden">Наши контакты</h2>
-      <div class="phone contact__phone">
-        <h3 class="title phone__title">Наш номер:</h3>
-        <a class="phone__link" href="tel:+78129273957">+7(812)927-39-57</a>
-        <span class="phone__time">с 11-00 до 20-00</span>
+    <div class="container">
+      <div class="header__container">
+        <a class="logo header__logo" href="">
+          <img src="img/logo.png" alt="Двери Гризли" width="132" height="66">
+        </a>
+        <div class="header__wrapper">
+          <nav class="nav nav--header header__nav">
+            <button class="burger nav__burger">
+              <span class="visually-hidden">Открыть меню</span>
+              <div class="burger__line"></div>
+            </button>
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a class="nav__link" href="">Главная</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="catalog.html">Каталог</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="">Наши работы</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="contact.html">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+          <section class="contact header__contact">
+            <h2 class="visually-hidden">Наши контакты</h2>
+            <div class="phone contact__phone">
+              <h3 class="visually-hidden">Наш номер:</h3>
+              <a class="phone__link" href="tel:+78129273957">+7(812)927-39-57</a>
+              <span class="phone__time">с 11-00 до 20-00</span>
+            </div>
+            <section class="social contact__social">
+              <h3 class="title social__title">Мы в социальных сетях:</h3>
+              <ul class="social__list">
+                <li class="social__item">
+                  <a class="social__link" href="http://" target="_blank"><span class="visually-hidden">Вконтакте</span></a>
+                </li>
+                <li class="social__item">
+                  <a class="social__link" href="http://" target="_blank"><span class="visually-hidden">Instagram</span></a>
+                </li>
+              </ul>
+            </section>
+          </section>
+        </div>
       </div>
-      <section class="social contact__social">
-        <h3 class="title social__title">Мы в социальных сетях:</h3>
-        <ul class="social__list">
-          <li class="social__item">
-            <a class="social__link" href="http://" target="_blank"><span class="visually-hidden">Вконтакте</span></a>
-          </li>
-          <li class="social__item">
-            <a class="social__link" href="http://" target="_blank"><span class="visually-hidden">Instagram</span></a>
-          </li>
-        </ul>
-      </section>
-    </section>
+    </div>
+
   </header>
-  <main class="main-page">
+  <!-- <main class="main-page">
     <h1 class="title title--main">«Гризли»- надёжный защитник берлоги</h1>
     <section class="popular">
       <div class="container">
@@ -192,6 +202,7 @@
         </div>
       </div>
     </div>
-  </footer>
+  </footer> -->
+  <script src="js/main.js"></script>
 </body>
 </html>

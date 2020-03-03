@@ -1,1 +1,15 @@
+@import "normalize";
 @import "variables";
+@import "fonts";
+@import "main-prop";
+@import "grid";
+@import "blocks/header";
+@import "blocks/nav";
+@import "blocks/burger";
+@import "blocks/contact";
+burger
+
+
+body {
+  font-family: $font;
+}
